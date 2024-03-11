@@ -1,0 +1,217 @@
+@charset "utf-8";
+
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 12px;
+  }
+  .wrap-box {
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+  }
+  .left-box {
+    width: 100%;
+    height: 30%;
+    border-right: 0;
+    border-bottom: 3px solid #333;
+    overflow: hidden;
+  }
+  .left-box .yeah-box {
+    width: 100%; height: 100%;
+    margin: 0;
+  }
+  .left-box .yeah-box img {
+    top: 5%; left: 32%;
+    width: 38%;
+  }
+  .right-box {
+    width: 100%;
+    height: 70%;
+  }
+  .profile {
+    padding: 0.5rem;
+  }
+  .introduce {
+    padding: 0.5rem;
+  }
+  .introduce p {
+    line-height: 1.8rem;
+    padding: 0 25rem 0 0;
+  }
+  .skill {
+    padding: 0.5rem;
+    height: 35%;
+  }
+  .skill .skill-box .img-box {
+    border-radius: 27px;
+  }
+  .charactor .down .broad-minded {
+    width: 145px;
+  }
+}
+@media screen and (max-width: 425px) {
+  html { font-size: 11px;}
+  .left-box {
+    border-bottom: 1px solid #333;
+  }
+  .left-box .prev-button {
+    width: 2.8rem; height: 2.8rem;
+    border: 1px solid #333;
+  }
+  .left-box .yeah-box img {
+    top: 10%;
+    left: 23%;
+    width: 55%;
+  }
+  .right-box .profile-img {
+    right: 1rem;
+    top: -1rem;
+  }
+  .right-box .profile-img .circle-frame {
+    width: 15rem; height: 15rem;
+    border: 1px solid #333;
+  }
+  .right-box .profile-img .circle-frame img {
+    width: 13rem; height: 13rem;
+    top: 3%; left: 3%;
+  }
+  .right-box .profile-img .pink-mouse {
+    width: 2rem;
+  }
+  .profile {
+    height: 18%;
+    border-bottom: 1px solid #333;
+  }
+  .introduce {
+    border-bottom: 1px solid #333;
+  }
+  .introduce p {
+    padding: 2rem 0 0 0;
+  }
+  .skill {
+    height: 30%;
+    border-bottom: 1px solid #333;
+  }
+  .skill .skill-box .img-box {
+    width: 4rem; height: 4rem;
+    border-radius: 18px;
+  }
+  .skill .skill-box .img-box img {
+    width: 2.38rem; height: 2.38rem;
+  }
+  .skill h3 {
+    padding-bottom: 2rem;
+  }
+  .charactor {
+    height: 17%;
+  }
+  .charactor .up p {
+    border: 1px solid #333;
+  }
+  .charactor .down p {
+    border: 1px solid #333;
+  }
+  .charactor .up .circle {
+    border: 1px solid #333;
+  }
+  .charactor .down .circle {
+    border: 1px solid #333;
+  }
+}
+@media screen and (max-width: 375px) {
+    html {
+        font-size: 10px;
+    }
+    .left-box {
+        width: 100%;
+        height: 30%;
+        border-right: 0;
+        border-bottom: 1px solid #333;
+        overflow: hidden;
+      }
+      .left-box .yeah-box {
+        width: 100%; height: 100%;
+        margin: 0;
+      }
+      .left-box .yeah-box img {
+        top: 15%; left: 25%;
+        width: 50%;
+      }
+      .right-box {
+        width: 100%;
+        height: 70%;
+      }
+      .profile {
+        padding: 1rem 0.5rem;
+      }
+      .right-box .profile-img {
+        top: -6rem;
+      }
+      .right-box .profile-img .circle-frame {
+        width: 14rem; height: 14rem;
+      }
+      .right-box .profile-img .circle-frame img {
+        width: 12rem; height: 12rem;
+        top: 3%; left: 3%;
+      }
+      .right-box .profile-img .pink-mouse {
+        width: 2rem;
+      }
+      .introduce {
+        padding: 2rem 0.5rem;
+      }
+      .introduce p {
+        line-height: 2rem;
+        padding: 0;
+      }
+      .skill {
+        padding: 2rem 0.5rem;
+        height: 25%;
+      }
+      .skill .skill-box .img-box {
+        border-radius: 23px;
+        width: 4rem; height: 4rem;
+      }
+      .skill .skill-box .img-box img {
+        width: 2rem; height: 2rem;
+      }
+      .skill .skill-box p {
+        font-size: 0.8rem;
+      }
+      .charactor {
+        height: 15%;
+      }
+      .charactor .down .broad-minded {
+        width: 120px;
+      }
+}
+@media screen and (max-width: 320px) {
+  html { font-size: 9px;}
+  .left-box .yeah-box img {
+    top: 21%;
+    left: 20%;
+    width: 60%;
+  }
+  .profile {
+    padding: 2rem 0.5rem;
+  }
+  .introduce {
+    padding: 2rem 0.5rem;
+  }
+  .introduce p {
+    line-height: 2.5rem;
+  }
+  .right-box .profile-img {
+    top: -7rem;
+  }
+  .right-box .profile-img .circle-frame {
+    width: 12rem; height: 12rem;
+  }
+  .right-box .profile-img .circle-frame img {
+    width: 9rem; height: 9rem;
+    top: 9%; left: 9%;
+  }
+  .charactor {
+    height: 13%;
+  }
+}

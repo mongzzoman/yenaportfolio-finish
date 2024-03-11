@@ -1,0 +1,1747 @@
+@charset "utf-8";
+
+* {
+  transition: all .3s ease-in-out;
+}
+
+@media screen and (max-width: 1800px) {
+  .section02 .inner .title span {
+    margin: 0 1rem;
+  }
+  .section03 .inner .title span {
+    margin: 0 2rem;
+  }
+  .section04 .inner .title .left-title {
+    width: 67%;
+  }
+  .section04 .inner .title span {
+    margin: 0 1rem;
+  }
+}
+@media screen and (max-width: 1730px) {
+  .first-main .content .text {
+    font-size: 1.3rem;
+  }
+  .section01 .inner .loading {
+    width: 70rem;
+    height: 35rem;
+  }
+  .section01 .inner .loading .box .loading-bar {
+    height: 85px;
+  }
+  .section01 .inner .loading .box .loading-bar .span00 {
+    height: 4rem;
+  }
+  .section01 .inner .loading .box .keepgoing {
+    justify-content: center;
+    line-height: 150rem;
+  }
+  .section01 .inner .loading .box .keepgoing p {
+    font-size: 5rem;
+  }
+  .section01 .inner .loading .box .keepgoing .circle-box {
+    padding-top: 1.5rem;
+  }
+  .section01 .inner .loading .box .keepgoing .circle-box span {
+    width: 0.8rem;
+    height: 0.8rem;
+    margin: 0 1rem;
+  }
+  .section01 .inner .mouse {
+    display: block;
+    width: 4rem;
+    position: absolute;
+    animation: mouse 1.4s steps(2) infinite;
+  }
+  @keyframes mouse {
+    0% {
+      bottom: 20%;
+      right: 20%;
+    }
+    100% {
+      bottom: 40%;
+      right: 34%;
+    }
+  }
+  .section02 .inner .title span {
+    margin-right: 4rem;
+  }
+  #tab-section .inner .title .left-title .left-animate-title {
+    width: 52rem;
+    font-size: 6rem;
+    height: 8.5rem;
+  }
+  #tab-section
+    .inner
+    .title
+    .left-title
+    .left-animate-title
+    .webredesign:nth-child(3) {
+    margin-right: 3rem;
+  }
+  #tab-section .inner .title .right-title {
+    font-size: 1rem;
+    line-height: 2rem;
+  }
+  #tab-section .inner .item-box .item .item-content {
+    gap: 2.125rem;
+  }
+  #tab-section .inner .item-box .item .item-content h1 {
+    padding-bottom: 2rem;
+    font-size: 4.8rem;
+  }
+  #tab-section .inner .item-box .item .item-content .button .original {
+    width: 8.0625rem;
+    height: 3.6875rem;
+    line-height: 3.6875rem;
+    font-size: 1rem;
+  }
+  #tab-section .inner .item-box .item .item-content .button .moreview {
+    width: 8.0625rem;
+    height: 3.6875rem;
+    line-height: 3.6875rem;
+    font-size: 1rem;
+  }
+  .section03 .inner .title .left-title {
+    width: 60%;
+  }
+  .section03 .inner .title span {
+    margin: 0 4rem 0 2rem;
+  }
+  .section04 .inner .title .left-title {
+    width: 61%;
+  }
+  .section03 .inner .title span {
+    margin: 0 4rem 0 3rem;
+  }
+  .section05 .inner .item-box .etcSwiper .control .next .swiper-button-next {
+    left: -10%;
+  }
+  .section05 .inner .item-box .etcSwiper .control .prev .swiper-button-prev {
+    left: -10%;
+  }
+  .section05
+    .inner
+    .item-box
+    .etcSwiper
+    .swiper-wrapper
+    .swiper-slide
+    a
+    .slide-img {
+    border-radius: 1rem;
+    object-fit: cover;
+    bottom: 60%;
+    height: 0%;
+  }
+  .section05
+    .inner
+    .item-box
+    .etcSwiper
+    .swiper-wrapper
+    .swiper-slide-active
+    a
+    .slide-img {
+    height: 70%;
+  }
+  .section05 .inner .item-box .etcSwiper .swiper-wrapper .swiper-slide {
+    height: 56.3%;
+  }
+  .section05
+    .inner
+    .item-box
+    .etcSwiper
+    .swiper-wrapper
+    .swiper-slide
+    a
+    .folder-front {
+    bottom: 20%;
+  }
+}
+@media screen and (max-width: 1600px) {
+  .first-main .content .text {
+    font-size: 1.2rem;
+  }
+  .first-main .content .title .small-title {
+    font-size: 1.4rem;
+  }
+}
+@media screen and (max-width: 1496px) {
+  html {
+    font-size: 15px;
+    transition: font-size .3s ease-in-out;
+  }
+  .first-main {
+    padding-top: 10rem;
+  }
+  .first-main .content .title .big-title span {
+    display: none;
+  }
+  .first-main .content .title .small-title {
+    font-size: 1.3rem;
+  }
+  .first-main .content .text {
+    font-size: 1.2rem;
+    line-height: 2rem;
+  }
+  .section01 .inner .loading {
+    width: 60rem;
+    height: 30rem;
+  }
+  .section01 .inner .loading .box .loading-bar {
+    height: 70px;
+  }
+  .section01 .inner .loading .box .loading-bar .span00 {
+    height: 3rem;
+  }
+  .section01 .inner .loading .box .keepgoing {
+    justify-content: center;
+    line-height: 100rem;
+  }
+  .section01 .inner .loading .box .keepgoing p {
+    font-size: 3rem;
+  }
+  .section01 .inner .loading .box .keepgoing .circle-box {
+    padding-top: 1rem;
+  }
+  .section01 .inner .loading .box .keepgoing .circle-box span {
+    width: 0.6rem;
+    height: 0.6rem;
+    margin: 0 1rem;
+  }
+  .section01 .inner .mouse {
+    display: block;
+    width: 3rem;
+    position: absolute;
+    animation: mouse 1.4s steps(2) infinite;
+  }
+  @keyframes mouse {
+    0% {
+      bottom: 12%;
+      right: 27%;
+    }
+    100% {
+      bottom: 30%;
+      right: 35.5%;
+    }
+  }
+  #tab-section .inner .title .left-title .left-animate-title {
+    width: 48rem;
+    font-size: 5.5rem;
+    height: 8rem;
+  }
+  #tab-section
+    .inner
+    .title
+    .left-title
+    .left-animate-title
+    .webredesign:nth-child(3) {
+    margin-right: 3rem;
+  }
+  #tab-section .inner .title .right-title {
+    font-size: 1rem;
+    line-height: 2rem;
+  }
+  #tab-section .inner .item-box .item .item-content {
+    gap: 2.125rem;
+  }
+  #tab-section .inner .item-box .item .item-content h1 {
+    padding-bottom: 0;
+  }
+  #tab-section .inner .item-box .item .item-content .button .original {
+    width: 8.0625rem;
+    height: 3.6875rem;
+    line-height: 3.6875rem;
+    font-size: 1rem;
+  }
+  #tab-section .inner .item-box .item .item-content .button .moreview {
+    width: 8.0625rem;
+    height: 3.6875rem;
+    line-height: 3.6875rem;
+    font-size: 1rem;
+  }
+  .section05 .inner .item-box .bar .address-box {
+    height: 2rem;
+  }
+  .section05 .inner .item-box .etcSwiper .control .next .swiper-button-next {
+    left: -20%;
+  }
+  .section05 .inner .item-box .etcSwiper .control .prev .swiper-button-prev {
+    left: -20%;
+  }
+  .section05
+    .inner
+    .item-box
+    .etcSwiper
+    .swiper-wrapper
+    .swiper-slide
+    a
+    .slide-img {
+    border-radius: 1rem;
+    object-fit: cover;
+  }
+  .section05
+    .inner
+    .item-box
+    .etcSwiper
+    .swiper-wrapper
+    .swiper-slide-active
+    a
+    .slide-img {
+    border-radius: 1rem;
+    object-fit: cover;
+    height: 62%;
+  }
+  .section05 .inner .item-box .etcSwiper .swiper-wrapper .swiper-slide {
+    height: 56.3%;
+  }
+  .section05
+    .inner
+    .item-box
+    .etcSwiper
+    .swiper-wrapper
+    .swiper-slide
+    a
+    .folder-front {
+    bottom: 40%;
+  }
+  .contact .inner {
+    padding: 3rem 25rem;
+  }
+  .contact .inner .mouse {
+    width: 3rem;
+  }
+  .contact .inner .contact-box .box {
+    padding: 2rem;
+  }
+  .contact .inner .contact-box .box form .form-group input {
+    padding: 1rem;
+  }
+  .contact .inner .contact-box .box form .form-group textarea {
+    height: 8rem;
+  }
+  #footer {
+    height: 115vh;
+  }
+}
+@media screen and (max-width: 1320px) {
+  html {
+    font-size: 14px;
+  }
+  .first-main {
+    padding-top: 10rem;
+  }
+  .first-main .content .title .big-title span {
+    display: none;
+  }
+  .first-main .content .title .small-title {
+    font-size: 1.2rem;
+  }
+  .first-main .content .text {
+    font-size: 1rem;
+    line-height: 2rem;
+  }
+  .section01 .inner {
+    height: 100vh;
+  }
+  .section01 .inner .mouse {
+    display: block;
+    width: 3rem;
+    position: absolute;
+    animation: mouse 1.4s steps(2) infinite;
+  }
+  @keyframes mouse {
+    0% {
+      bottom: 30%;
+      right: 20%;
+    }
+    100% {
+      bottom: 45%;
+      right: 25.5%;
+    }
+  }
+  #tab-section .inner .title .left-title .left-animate-title {
+    font-size: 5rem;
+  }
+  #tab-section
+    .inner
+    .title
+    .left-title
+    .left-animate-title
+    .webredesign:nth-child(3) {
+    margin-right: 2rem;
+  }
+  #tab-section .inner .title .right-title {
+    font-size: 0.8rem;
+    line-height: 1.8rem;
+  }
+  .section05 .inner .item-box .bar .address-box {
+    height: 2.5rem;
+  }
+  .section05 .inner .item-box .etcSwiper .control .next .swiper-button-next {
+    left: -35%;
+  }
+  .section05 .inner .item-box .etcSwiper .control .prev .swiper-button-prev {
+    left: -35%;
+  }
+  .section05 .inner .item-box .etcSwiper .swiper-wrapper .swiper-slide {
+    height: 40%;
+  }
+  .section05
+    .inner
+    .item-box
+    .etcSwiper
+    .swiper-wrapper
+    .swiper-slide
+    a
+    .folder-front {
+    bottom: 25%;
+  }
+  #footer {
+    height: 100vh;
+  }
+}
+@media screen and (max-width: 1230px) {
+  #header .inner .right {
+    width: 100%;
+    position: relative;
+  }
+  #header .inner .right .menu {
+    display: none;
+  }
+  #header .inner .right .menu-hamburger {
+    display: block;
+    position: absolute;
+    left: 38%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .hamburger-popup {
+    display: block;
+    display: none;
+  }
+  #header .inner .right .darkBtn {
+    position: absolute;
+    top: 50%;
+    right: -23px;
+    transform: translate(-50%, -50%);
+  }
+  .section01 .inner .mouse {
+    display: block;
+    width: 3rem;
+    position: absolute;
+    animation: mouse 1.4s steps(2) infinite;
+  }
+  @keyframes mouse {
+    0% {
+      bottom: 30%;
+      right: 20%;
+    }
+    100% {
+      bottom: 60%;
+      right: 25.5%;
+    }
+  }
+  #tab-section .inner .title .left-title .left-animate-title {
+    font-size: 4.8rem;
+  }
+  #tab-section
+    .inner
+    .title
+    .left-title
+    .left-animate-title
+    .webredesign:nth-child(3) {
+    margin-right: 1.5rem;
+  }
+  #tab-section
+    .inner
+    .title
+    .left-title
+    .left-animate-title
+    .clonecoding:nth-child(5) {
+    margin-right: 1.5rem;
+  }
+  #tab-section
+    .inner
+    .title
+    .left-title
+    .left-animate-title
+    .designproject:nth-child(6) {
+    margin-right: 1.5rem;
+  }
+  #tab-section
+    .inner
+    .title
+    .left-title
+    .left-animate-title
+    .etcdesign:nth-child(3) {
+    margin-right: 1.5rem;
+  }
+  #tab-section .inner .title .right-title {
+    font-size: 0.7rem;
+    line-height: 1.8rem;
+  }
+}
+@media screen and (max-width: 1120px) {
+  .section01 .inner {
+    padding: 0 50px;
+  }
+  .section01 .inner .loading {
+    width: 53rem;
+    height: 27rem;
+    border-radius: 20px;
+  }
+  .section01 .inner .loading .bar {
+    border-radius: 20px 20px 0 0;
+    gap: 15px;
+  }
+  .section01 .inner .loading .bar span {
+    width: 15px; height: 15px;
+  }
+  .section01 .inner .loading .box .keepgoing {
+    padding: 0;
+  }
+  .section01 .inner .loading .box .loading-bar {
+    border-radius: 12px;
+    height: 50px;
+  }
+  .section01 .inner .loading .box .loading-bar .span00 {
+    border-radius: 7px;
+    height: 2.5rem;
+  }
+  .section01 .inner .folder-group a img {
+    width: 80px;
+  }
+  #tab-section .inner {
+    padding: 0 100px;
+  }
+  .section02 .inner .title span a {
+    margin-right: 2rem;
+  }
+  #tab-section .inner .item-nav li.click {
+    top: 2px;
+  }
+  #tab-section .inner .item-nav li {
+    border-radius: 15px 15px 0 0;
+  }
+  #tab-section .inner .title .right-title {
+    font-size: 1rem;
+  }
+  #tab-section .inner .item-box .item {
+    gap: 50px;
+  }
+  #tab-section .inner .item-box .item .item-content h1 {
+    font-size: 4rem;
+  }
+  #tab-section .inner .item-box .item .item-content p {
+    font-size: 0.95rem;
+  }
+  #tab-section .inner .item-box .item .item-content {
+    gap: 1.8rem;
+  }
+  #tab-section .inner .title .left-title .left-animate-title {
+    font-size: 4.6rem;
+  }
+  #tab-section .inner .item-box {
+    height: 50%;
+  }
+  .section05 .inner .item-box .etcSwiper {
+    height: 84%;
+  }
+  .section05 .inner .item-box .etcSwiper .swiper-wrapper .swiper-slide-active a .slide-img {
+    height: 78%;
+  }
+  .section05 .inner .item-box .etcSwiper .swiper-wrapper .swiper-slide a .folder-front {
+    bottom: 15%;
+  }
+  .section05 .inner .item-box .etcSwiper .control .swiper-scrollbar .swiper-scrollbar-drag {
+    width: 300px !important;
+    left: 0.9rem;
+  }
+  .section05 .inner .item-box .etcSwiper .control .prev {
+    width: 2.4%;
+  }
+  .section05 .inner .item-box .etcSwiper .control .prev .swiper-button-prev {
+    left: -19%;
+  }
+  .section05 .inner .item-box .etcSwiper .control .next {
+    width: 2.4%;
+  }
+  .section05 .inner .item-box .etcSwiper .control .next .swiper-button-next {
+    left: -15%;
+  }
+  .section05 .inner .item-box .bar {
+    border-radius: 20px 20px 0 0;
+    padding: 0 30px;
+  }
+  .section05 .inner .item-box .bar .line-icon {
+    gap: 20px;
+  }
+  .section05 .inner .item-box .bar .circle-icon {
+    gap: 15px;
+  }
+  .section05 .inner .item-box .bar .circle-icon .circle1 {
+    width: 15px; height: 15px;
+  }
+  .section05 .inner .item-box .bar .circle-icon .circle2 {
+    width: 15px; height: 15px;
+  }
+  .section05 .inner .item-box .bar .circle-icon .circle3 {
+    width: 15px; height: 15px;
+  }
+  .contact .inner {
+    padding: 3rem 100px;
+  }
+  .contact .inner .contact-box .bar span {
+    width: 15px; height: 15px;
+  }
+  #footer .inner {
+    padding: 10rem 100px;
+  }
+  #header .inner .right .darkBtn .toggleSwitch {
+    padding: 0.115rem;
+  }
+}
+@media screen and (max-width: 980px) {
+  html {
+    font-size: 13px;
+  }
+  .hamburger-popup .popup-inner {
+    padding: 10rem;
+  }
+  .first-main {
+    padding: 0 3rem;
+  }
+  .section01 .inner {
+    padding: 0 3rem;
+    height: 70vh;
+  }
+  .section01 .inner .loading {
+    width: 50rem;
+    height: 27rem;
+  }
+  .section01 .inner .loading .box .loading-bar {
+    height: 50px;
+  }
+  .section01 .inner .loading .box .loading-bar .span00 {
+    height: 2rem;
+  }
+  .section01 .inner .loading .box .keepgoing {
+    justify-content: center;
+    line-height: 10rem;
+  }
+  .section01 .inner .loading .box .keepgoing p {
+    font-size: 2rem;
+  }
+  .section01 .inner .loading .box .loading-bar {
+    gap: 0.2rem;
+  }
+  .section01 .inner .loading .box .loading-bar .span00 {
+    height: 3rem;
+  }
+  .section01 .inner .folder-group a img {
+    width: 72px;
+  }
+  .section01 .inner .mouse {
+    display: block;
+    width: 2.5rem;
+    position: absolute;
+    animation: mouse 1.4s steps(2) infinite;
+  }
+  @keyframes mouse {
+    0% {
+      bottom: 40%;
+      right: 20%;
+    }
+    100% {
+      bottom: 60%;
+      right: 30.5%;
+    }
+  }
+  #tab-section {
+    margin-top: 2rem;
+  }
+  #tab-section .inner {
+    padding: 0 3rem;
+  }
+  #tab-section .inner .title .right-title {
+    width: 39%;
+  }
+  #tab-section .inner .item-box .item {
+    width: 90%;
+    gap: 4rem;
+  }
+  #tab-section .inner .item-box .item .item-content h1 {
+    font-size: 4rem;
+  }
+  #tab-section .inner .item-box .item .item-content p {
+    font-size: 1rem;
+  }
+  .section02 .inner .title .left-title {
+    width: 54%;
+  }
+  .section02 .inner .title span {
+    margin-right: 0;
+  }
+  .section03 .inner .title .left-title {
+    width: 55%;
+  }
+  .section04 .inner .title .left-title {
+    width: 57%;
+  }
+  .section05 .inner .item-box {
+    height: 63vh !important;
+  }
+  .section05 .inner .item-box .etcSwiper .control .prev {
+    width: 2.7%;
+  }
+  .section05 .inner .item-box .etcSwiper .control .next {
+    width: 2.7%;
+  }
+  .section05 .inner .item-box .etcSwiper .control .swiper-scrollbar {
+    height: 101%;
+  }
+  .section05
+    .inner
+    .item-box
+    .etcSwiper
+    .control
+    .swiper-scrollbar
+    .swiper-scrollbar-drag {
+    top: 0.312rem;
+    left: 1.23rem;
+  }
+  .section05 .inner .item-box .etcSwiper .control .next .swiper-button-next {
+    left: -5%;
+  }
+  .section05 .inner .item-box .etcSwiper .control .prev .swiper-button-prev {
+    left: -5%;
+  }
+  .section05 .inner .item-box .etcSwiper .swiper-wrapper .swiper-slide-active a .slide-img {
+    height: 72%;
+  }
+  .contact .inner {
+    padding: 3rem 10rem;
+  }
+  #footer {
+    height: 100vh;
+  }
+  #footer .inner {
+    padding: 10rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 12px;
+  }
+  #header .inner {
+    padding: 0 4.5rem;
+  }
+  .hamburger-popup .popup-inner {
+    padding: 15rem 5rem;
+  }
+  #header .inner .right .darkBtn .toggleSwitch {
+    padding: 0.1rem 0.12rem;
+  }
+  .first-main {
+    padding: 8rem 3rem 0;
+  }
+  .first-main .content .title {
+    padding: 30px 30px 100px 30px;
+  }
+  .first-main .content .title .big-title {
+    font-size: 6rem;
+  }
+  .first-main .content .text {
+    font-size: 1.1rem;
+    width: 32%;
+    line-height: 1.7rem;
+    text-align: right;
+  }
+  .section01 .inner .loading {
+    width: 42rem;
+    height: 25.5rem;
+    border-radius: 15px;
+  }
+  .section01 .inner .loading .bar {
+    gap: 11px;
+    border-radius: 15px 15px 0 0;
+  }
+  .section01 .inner .loading .bar span {
+    width: 12px;
+    height: 12px;
+  }
+  .section01 .inner .loading .box .keepgoing {
+    padding: 0;
+    margin: 0 auto;
+  }
+  .section01 .inner .loading .box .keepgoing p {
+    font-size: 2.5rem;
+    letter-spacing: 6px;
+  }
+  .section01 .inner .loading .box .loading-bar {
+    height: 35px;
+    border-radius: 0.7rem;
+    border: 1px solid #333;
+    padding: 0 5px;
+  }
+  .section01 .inner .loading .box .loading-bar .span00 {
+    height: 2rem;
+    border-radius: 0.4rem;
+  }
+  .section01 .inner .folder-group {
+    gap: 30px;
+  }
+  .section01 .inner .folder-group a img {
+    width: 70px;
+  }
+  .section01 .inner .mouse {
+    display: block;
+    width: 2.5rem;
+    position: absolute;
+    animation: mouse 1.4s steps(2) infinite;
+  }
+  @keyframes mouse {
+    0% {
+      bottom: 58%;
+      right: 20%;
+    }
+    100% {
+      bottom: 68%;
+      right: 35%;
+    }
+  }
+  #tab-section {
+    height: 100vh;
+  }
+  #tab-section .inner .title span {
+    height: 85px;
+  }
+  #tab-section .inner .item-box {
+    height: 40%;
+  }
+  #tab-section .inner .item-nav {
+    margin-top: 0;
+  }
+  #tab-section .inner .item-nav li {
+    border-radius: 10px 10px 0 0;
+    padding-top: 4%;
+  }
+  #tab-section .inner .item-nav li.click {
+    top: 2px;
+  }
+  #tab-section .inner .item-box .item {
+    height: 45%;
+  }
+  #tab-section .inner .item-box .item .item-content h1 {
+    font-size: 3rem;
+  }
+  #tab-section .inner .item-box .item .item-content p {
+    font-size: 0.9rem;
+  }
+  #tab-section .inner .item-box .item .item-content .button .original {
+    width: 7rem;
+    height: 3rem;
+    line-height: 3rem;
+  }
+  #tab-section .inner .item-box .item .item-content .button .moreview {
+    width: 7rem;
+    height: 3rem;
+    line-height: 3rem;
+  }
+  #tab-section .inner .item-box .item .image-wrap {
+    border-radius: 12px;
+  }
+  #tab-section .inner .item-box .item .image-wrap .bar {
+    border-radius: 12px 12px 0 0;
+    padding: 12px 15px;
+  }
+  #tab-section .inner .item-box .item .image-wrap .bar span {
+    width: 10px;
+    height: 10px;
+  }
+  #tab-section .inner .item-box .item .image-wrap > a {
+    border-radius: 0 0 12px 12px;
+  }
+  #tab-section .inner .title span {
+    margin-right: 1rem;
+  }
+  #tab-section .inner .item-box .item .item-content .button .original {
+    border-radius: 1rem;
+  }
+  #tab-section .inner .item-box .item .item-content .button .moreview {
+    border-radius: 1rem;
+  }
+  .section02 .inner .title .left-title {
+    width: 50%;
+    padding-top: 4%;
+  }
+  .section02 .inner .title .left-title .left-animate-title {
+    font-size: 3.45rem !important;
+  }
+  .section02 .inner .title .right-title {
+    width: 47% !important;
+  }
+  .section03 .inner .title .left-title {
+    width: 45%;
+    padding-top: 4%;
+  }
+  .section03 .inner .title .left-title .left-animate-title {
+    font-size: 3.45rem !important;
+  }
+  .section03 .inner .title .right-title {
+    width: 47% !important;
+  }
+  .section04 .inner .title .left-title .left-animate-title {
+    font-size: 3.1rem !important;
+  }
+  .section04 .inner .title .left-title {
+    width: 43%;
+    padding-top: 4%;
+  }
+  .section04 .inner .title span {
+    margin-right: -1rem !important;
+  }
+  .section04 .inner .title .right-title {
+    width: 48% !important;
+  }
+  .section05 .inner .title .left-title .left-animate-title {
+    font-size: 3.45rem;
+  }
+  .section05 .inner .item-box {
+    height: 350px !important;
+    border-radius: 15px;
+  }
+  .section05 .inner .item-box .bar {
+    height: 10%;
+    padding: 0 20px;
+    border-radius: 15px 15px 0 0;
+  }
+  .section05 .inner .item-box .bar .line-icon {
+    gap: 15px;
+  }
+  .section05 .inner .item-box .bar .address-box {
+    height: 1.65rem;
+  }
+  .section05 .inner .item-box .bar .address-box em {
+    line-height: 0;
+  }
+  .section05 .inner .item-box .bar .circle-icon .circle1 {
+    width: 1rem;
+    height: 1rem;
+  }
+  .section05 .inner .item-box .bar .circle-icon .circle2 {
+    width: 1rem;
+    height: 1rem;
+  }
+  .section05 .inner .item-box .bar .circle-icon .circle3 {
+    width: 1rem;
+    height: 1rem;
+  }
+  .section05 .inner .item-box .etcSwiper .control {
+    height: 7%;
+    top: 92%;
+  }
+  .section05 .inner .item-box .etcSwiper .control .prev {
+    width: 2.4%;
+  }
+  .section05 .inner .item-box .etcSwiper .control .prev .swiper-button-prev {
+    left: -34%;
+  }
+  .section05 .inner .item-box .etcSwiper .control .next {
+    width: 2.4%;
+  }
+  .section05 .inner .item-box .etcSwiper .control .next .swiper-button-next {
+    left: -34%;
+  }
+  .section05 .inner .item-box .etcSwiper .control .swiper-scrollbar {
+    height: 102%;
+  }
+  .section05
+    .inner
+    .item-box
+    .etcSwiper
+    .control
+    .swiper-scrollbar
+    .swiper-scrollbar-drag {
+    top: 0.35rem;
+    left: 0.87rem;
+    width: 500px !important;
+  }
+  .section05
+    .inner
+    .item-box
+    .etcSwiper
+    .swiper-wrapper
+    .swiper-slide
+    a
+    .folder-front {
+    bottom: 14%;
+  }
+  .section05
+    .inner
+    .item-box
+    .etcSwiper
+    .swiper-wrapper
+    .swiper-slide-active
+    a
+    .slide-img {
+    height: 80%;
+  }
+  .section05
+    .inner
+    .item-box
+    .etcSwiper
+    .swiper-wrapper
+    .swiper-slide
+    a
+    .slide-img {
+    bottom: 70%;
+  }
+  .etc-design-popup .etc-design-popup-wrapper .etc-design-img-box {
+    width: 350px; height: 372px;
+  }
+  .etc-design-popup .etc-design-popup-wrapper .etc-design-img-box img.exit {
+    top: 0.1rem;
+    right: 0.5rem;
+    width: 1.6rem; height: 1.6rem;
+  }
+  .etc-design-popup .etc-design-popup-wrapper .etc-design-img-box .img {
+    width: 23rem; height: 23rem;
+  }
+  .etc-design-popup .etc-design-popup-wrapper .etc-design-img-box p.first-title {
+    margin-left: 2.4rem;
+    width: 8.35rem;
+  }
+  .etc-design-popup .etc-design-popup-wrapper .etc-design-img-box p {
+    font-size: 0.8rem;
+    padding-top: 0.45rem;
+  }
+  .etc-design-popup .etc-design-popup-wrapper .etc-design-img-box p.second-title {
+    width: 8.35rem;
+    margin-left: -0.35rem;
+  }
+  #footer {
+    height: 106vh;
+  }
+  #footer .inner {
+    height: 58% !important;
+  }
+  #footer .inner .animate-typing {
+    margin: 0;
+  }
+}
+@media screen and (max-width: 425px) {
+  html {
+    font-size: 10px;
+  }
+  #header .inner {
+    padding: 0 2rem;
+  }
+  #header .inner .name > em {
+    margin-left: 0;
+  }
+  #header .inner .right .darkBtn .toggleSwitch {
+    border: 1px solid #333;
+  }
+  #header .inner .right .menu-hamburger {
+    left: 33%;
+  }
+  #header .inner .right .darkBtn .toggleSwitch {
+    padding: 0.2rem;
+  }
+  #header .inner .right .darkBtn .toggleButton {
+    width: 1.46rem; height: 1.46rem;
+  }
+  .hamburger-popup .popup-inner {
+    padding: 15rem 0;
+  }
+  .hamburger-popup .popup-inner ul li a {
+    width: 50%;
+  }
+  .first-main .content .title {
+    padding: 0;
+  }
+  .first-main .content .title .big-title {
+    font-size: 5rem;
+  }
+  .first-main .content .text {
+    width: 53%;
+    padding-top: 50px;
+    text-align: right;
+    font-size: 1rem;
+  }
+  .section01 {
+    height: 100%;
+    margin-top: 50px;
+  }
+  .section01 .inner {
+    padding: 0 2rem;
+  }
+  .section01 .inner .loading {
+    width: 29rem;
+    height: 17rem;
+    border-radius: 10px;
+    left: 5%;
+  }
+  .section01 .inner .loading .bar {
+    gap: 8px;
+    padding: 0 1.2rem;
+    height: 13%;
+  }
+  .section01 .inner .loading .bar span {
+    width: 8px;
+    height: 8px;
+  }
+  .section01 .inner .loading .box {
+    padding: 8px;
+    padding-top: 53px;
+  }
+  .section01 .inner .loading .box .loading-bar {
+    height: 25px;
+    border-radius: 0.5rem;
+    margin-top: 50px;
+  }
+  .section01 .inner .loading .box .loading-bar .span00 {
+    border-radius: 0.3rem;
+    height: 1.7rem;
+  }
+  .section01 .inner .loading .box .keepgoing {
+    width: 100%;
+  }
+  .section01 .inner .loading .box .keepgoing p {
+    font-size: 2rem;
+  }
+  .section01 .inner .loading .box .keepgoing .circle-box {
+    padding-top: 0.7rem;
+  }
+  .section01 .inner .loading .box .keepgoing .circle-box span {
+    width: 0.5rem; height: 0.5rem;
+  }
+  .section01 .inner .folder-group {
+    gap: 1.5rem;
+  }
+  .section01 .inner .folder-group a img {
+    width: 3.5rem;
+  }
+  .section01 .inner .folder-group a p {
+    font-size: 1rem;
+  }
+  .section01 .inner .mouse {
+    width: 2.2rem;
+    display: block;
+    position: absolute;
+    animation: mouse 1.4s steps(2) infinite;
+  }
+  @keyframes mouse {
+    0% {
+      bottom: 42%;
+      right: 20%;
+    }
+    100% {
+      bottom: 60%;
+      right: 35.5%;
+    }
+  }
+  #tab-section .inner {
+    padding: 0 2rem;
+  }
+  #tab-section .inner .title {
+    flex-direction: column;
+  }
+  #tab-section .inner .title .left-title {
+    width: 100%;
+  }
+  #tab-section .inner .title .left-title .left-animate-title {
+    width: 100%;
+    justify-content: center;
+  }
+  #tab-section .inner .title span {
+    display: none;
+  }
+  #tab-section .inner .title .right-title {
+    width: 83% !important;
+    text-align: center;
+    transform: scale(0.95);
+  }
+  #tab-section .inner .item-nav li {
+    width: 8.75rem;
+    height: 2.5rem;
+    border-radius: 0.8rem 0.8rem 0 0;
+  }
+  #tab-section .inner .item-nav li.click {
+    top: 1px;
+  }
+  #tab-section .inner .item-nav li a {
+    font-size: 1.2rem;
+  }
+  #tab-section .inner .item-box .item {
+    flex-direction: column;
+    height: 450px;
+    justify-content: space-around;
+    border-radius: 0 10px 10px 10px;
+  }
+  #tab-section .inner .item-box .item .image-wrap {
+    border-radius: 10px;
+    width: 60%;
+  }
+  #tab-section .inner .item-box .item .image-wrap .bar {
+    border-radius: 10px 10px 0 0;
+    padding: 7px 10px;
+    gap: 8px;
+  }
+  #tab-section .inner .item-box .item .image-wrap .bar span {
+    width: 8px; height: 8px;
+  }
+  #tab-section .inner .item-box .item .item-content {
+    width: 90%;
+    gap: 1rem;
+  }
+  #tab-section .inner .item-box .item .item-content h1 {
+    text-align: center;
+    border-bottom: 0;
+  }
+  #tab-section .inner .item-box .item .item-content p {
+    text-align: center;
+  }
+  #tab-section .inner .item-box .item .item-content .button {
+    margin: 0 auto;
+  }
+  #tab-section .inner .item-box .item .item-content .button .original {
+    border-radius: 8px;
+  }
+  #tab-section .inner .item-box .item .item-content .button .moreview {
+    border-radius: 8px;
+  }
+  .section03 .inner .item-box #file02 .item-content h1 {
+    margin-top: 0;
+  }
+  .section05 .inner .item-box {
+    height: 250px !important;
+    border-radius: 10px;
+  }
+  .section05 .inner .item-box .bar {
+    height: 9%;
+    padding: 0 15px;
+  }
+  .section05 .inner .item-box .bar .line-icon {
+    gap: 10px;
+  }
+  .section05 .inner .item-box .bar .line-icon img {
+    width: 8px; height: 8px;
+  }
+  .section05 .inner .item-box .bar .address-box {
+    height: 1.5rem;
+    padding: 0 1rem;
+  }
+  .section05 .inner .item-box .bar .circle-icon {
+    gap: 10px;
+  }
+  .section05 .inner .item-box .bar .circle-icon .circle1 {
+    width: 8px; height: 8px;
+  }
+  .section05 .inner .item-box .bar .circle-icon .circle2 {
+    width: 8px; height: 8px;
+  }
+  .section05 .inner .item-box .bar .circle-icon .circle3 {
+    width: 8px; height: 8px;
+  }
+  .section05
+    .inner
+    .item-box
+    .etcSwiper
+    .swiper-wrapper
+    .swiper-slide
+    a
+    .slide-img {
+    height: 0;
+    bottom: 80%;
+  }
+  .section05
+    .inner
+    .item-box
+    .etcSwiper
+    .swiper-wrapper
+    .swiper-slide-active
+    a
+    .slide-img {
+    border-radius: 0.5rem;
+    height: 75%;
+    width: 90%;
+    bottom: 70%;
+  }
+  .section05
+    .inner
+    .item-box
+    .etcSwiper
+    .swiper-wrapper
+    .swiper-slide
+    a
+    .folder-front {
+    bottom: 25%;
+  }
+  .section05 .inner .item-box .etcSwiper .control .prev {
+    width: 4.4%;
+  }
+  .section05 .inner .item-box .etcSwiper .control .prev .swiper-button-prev {
+    left: -37%;
+  }
+  .section05 .inner .item-box .etcSwiper .control .next {
+    width: 3.9%;
+  }
+  .section05
+    .inner
+    .item-box
+    .etcSwiper
+    .control
+    .swiper-scrollbar
+    .swiper-scrollbar-drag {
+    top: 0.45rem;
+    left: 1.23rem;
+    width: 100px !important;
+  }
+  .etc-design-popup .etc-design-popup-wrapper .etc-design-img-box {
+    width: 292px;
+    height: 310px;
+  }
+  .contact .inner {
+    padding: 2rem;
+  }
+  .contact .inner .contact-box .bar {
+    padding: 1rem 1.2rem 1rem 1rem;
+  }
+  .contact .inner .contact-box .bar span {
+    width: 12px; height: 12px;
+  }
+  #footer {
+    height: 100vh;
+  }
+  #footer .inner {
+    padding: 3rem;
+  }
+  #footer .inner .animate-typing {
+    font-size: 4rem;
+  }
+}
+@media screen and (max-width: 375px) {
+  html {
+    font-size: 8px;
+  }
+  #header .inner {
+    padding: 0 1.5rem;
+  }
+  #header .inner .right .menu-hamburger {
+    left: 36%;
+  }
+  #header .inner .right .darkBtn {
+    right: -15px;
+  }
+  #header .inner .right .darkBtn .toggleButton {
+    width: 1.4rem; height: 1.4rem;
+  }
+  .hamburger-popup .popup-inner {
+    padding: 15rem 0;
+  }
+  .hamburger-popup .popup-inner ul li a {
+    width: 50%;
+  }
+  s #header .inner .right .darkBtn .toggleSwitch {
+    border: 1px solid #333;
+    padding: 0.05rem 0 0.12rem;
+  }
+  .first-main {
+    padding: 0 2rem;
+    padding-top: 100px;
+  }
+  .first-main .content .text {
+    width: 50%;
+  }
+  .section01 .inner {
+    padding: 0 1rem;
+    height: 50vh;
+  }
+
+  .section01 .inner .loading {
+    width: 34rem;
+    height: 17.5rem;
+    border-radius: 8px;
+  }
+  .section01 .inner .loading .bar {
+    gap: 6px;
+    border-radius: 8px 8px 0 0;
+  }
+  .section01 .inner .loading .bar span {
+    width: 7px; height: 7px;
+  }
+  .section01 .inner .loading .box {
+    padding-top: 49px;
+  }
+  .section01 .inner .loading .box .loading-bar {
+    height: 19px;
+    margin-top: 35px;
+    padding: 0 2px;
+  }
+  .section01 .inner .loading .box .keepgoing p {
+    font-size: 2rem;
+  }
+  .section01 .inner .mouse {
+    display: block;
+    width: 3rem;
+    position: absolute;
+    animation: mouse 1.4s steps(2) infinite;
+  }
+  @keyframes mouse {
+    0% {
+      bottom: 70%;
+      right: 20%;
+    }
+    100% {
+      bottom: 78%;
+      right: 34%;
+    }
+  }
+  #tab-section .inner .title .left-title {
+    width: 100%;
+  }
+  .section05 .inner .title .left-title {
+    width: 100% !important;
+  }
+  #tab-section .inner .title .left-title .left-animate-title {
+    font-size: 4.5rem !important;
+    margin-bottom: 20px;
+    padding-top: 2rem;
+  }
+  #tab-section .inner .title .right-title {
+    width: 90% !important;
+  }
+  #tab-section .inner .item-nav li.click {
+    top: 2px;
+  }
+  #tab-section .inner .item-box {
+    margin: 0;
+  }
+  #tab-section .inner .item-box .item {
+    height: 45%;
+    width: 87%;
+  }
+  #tab-section .inner .item-box .item .image-wrap {
+    border-radius: 0.5rem;
+  }
+  #tab-section .inner .item-box .item .image-wrap .bar {
+    gap: 0.5rem;
+    padding: 0 0.7rem;
+    height: 13%;
+  }
+  #tab-section .inner .item-box .item .image-wrap .bar span {
+    width: 0.5rem;
+    height: 0.5rem;
+  }
+  #tab-section .inner .item-box .item .item-content p {
+    margin-bottom: 15px;
+  }
+  #tab-section .inner .item-box .item .item-content .button .original {
+    width: 10rem;
+  }
+  #tab-section .inner .item-box .item .item-content .button .moreview {
+    width: 10rem;
+  }
+  .section05 .inner .item-box {
+    height: 25vh !important;
+    border-radius: 0.7rem;
+  }
+  .section05 .inner .item-box .etcSwiper .swiper-wrapper .swiper-slide {
+    margin-right: 58px !important;
+  }
+  .section05 .inner .item-box .bar {
+    padding: 0 1rem;
+    height: 9%;
+  }
+  .section05 .inner .item-box .bar .line-icon {
+    gap: 1rem;
+  }
+  .section05 .inner .item-box .bar .line-icon img {
+    width: 0.8rem;
+    height: 0.8rem;
+  }
+  .section05 .inner .item-box .bar .line-icon img:last-child {
+    width: 0.85rem;
+    height: 0.85rem;
+  }
+  .section05 .inner .item-box .bar .address-box {
+    height: 1.2rem;
+  }
+  .section05 .inner .item-box .bar .circle-icon {
+    gap: 0.8rem;
+  }
+  .section05 .inner .item-box .bar .circle-icon .circle1 {
+    width: 0.8rem;
+    height: 0.8rem;
+  }
+  .section05 .inner .item-box .bar .circle-icon .circle2 {
+    width: 0.8rem;
+    height: 0.8rem;
+  }
+  .section05 .inner .item-box .bar .circle-icon .circle3 {
+    width: 0.8rem;
+    height: 0.8rem;
+  }
+  .section05 .inner .item-box .etcSwiper {
+    padding: 0;
+  }
+  .section05 .inner .item-box .etcSwiper .control .prev {
+    width: 2.8%;
+  }
+  .section05 .inner .item-box .etcSwiper .control .prev .swiper-button-prev {
+    left: -136%;
+  }
+  .section05 .inner .item-box .etcSwiper .control .next {
+    width: 2.9%;
+  }
+  .section05 .inner .item-box .etcSwiper .control .next .swiper-button-next {
+    left: -105%;
+  }
+  .section05 .inner .item-box .etcSwiper .control .swiper-scrollbar {
+    height: 110%;
+  }
+  .section05
+    .inner
+    .item-box
+    .etcSwiper
+    .control
+    .swiper-scrollbar
+    .swiper-scrollbar-drag {
+    top: 0.5rem;
+    left: 0.8rem;
+    width: 100px !important;
+  }
+  .section05 .inner .item-box .etcSwiper .swiper-wrapper {
+    margin-right: 58px;
+  }
+  .section05 .inner .item-box .etcSwiper .swiper-wrapper .swiper-slide a .folder-front {
+    bottom: -17%;
+  }
+  .section05 .inner .item-box .etcSwiper .swiper-wrapper .swiper-slide a .slide-img {
+    bottom: 50%;
+    height: 90%;
+  }
+  .etc-design-popup .etc-design-popup-wrapper .etc-design-img-box {
+    width: 236px; height: 258px;
+    border-radius: 5px;
+  }
+  .contact .inner {
+    padding: 3rem;
+  }
+}
+@media screen and (max-width: 320px) {
+  html {
+    font-size: 7px;
+  }
+  #header .inner .name > em {
+    margin-left: 0;
+  }
+  #header .inner .right .menu-hamburger {
+    left: 34%;
+  }
+  #header .inner .right .darkBtn .toggleSwitch {
+    padding: 0.25rem;
+  }
+  #header .inner .right .darkBtn .toggleButton {
+    width: 1.2rem; height: 1.2rem;
+  }
+  .first-main .content .text {
+    width: 75%;
+  }
+  .section01 .inner .loading  {
+    width: 30rem; height: 18rem;
+    border-radius: 5px;
+  }
+  .section01 .inner .loading .bar {
+    border-radius: 5px 5px 0 0;
+    gap: 5px;
+    padding: 0 8px;
+  }
+  .section01 .inner .loading .bar span {
+    width: 6px; height: 6px;
+  }
+  .section01 .inner .loading .box {
+    padding-top: 40px;
+  }
+  .section01 .inner .mouse {
+    display: block;
+    width: 2rem;
+    position: absolute;
+    animation: mouse 1.4s steps(2) infinite;
+  }
+  @keyframes mouse {
+    0% {
+      bottom: 50%;
+      right: 20%;
+    }
+    100% {
+      bottom: 70%;
+      right: 35%;
+    }
+  }
+  .section01 .inner .folder-group {
+    gap: 2.2rem;
+  }
+  #tab-section .inner .title .left-title .left-animate-title {
+    font-size: 4rem !important;
+    margin-bottom: 2rem;
+  }
+  #tab-section .inner .item-nav li.click {
+    top: 1.5px;
+  }
+  #tab-section .inner .title .right-title {
+    width: 90% !important;
+    line-height: 18px;
+    word-break: revert;
+  }
+  #tab-section .inner .item-nav li {
+    border-radius: 5px 5px 0 0;
+  }
+  #tab-section .inner .item-box .item {
+    border-radius: 0 5px 5px 5px;
+    width: 90%; height: 50%;
+    gap: 0;
+  }
+  #tab-section .inner .item-box .item .image-wrap {
+    width: 80%; 
+    border-radius: 7px;
+  }
+  #tab-section .inner .item-box .item .image-wrap .bar {
+    height: 10%;
+    border-radius: 7px 7px 0 0;
+  }
+  #tab-section .inner .item-box .item .image-wrap > a .image-box {
+    padding-top: 58%;
+    border-radius: 0 0 7px 7px;
+  }
+  #tab-section .inner .item-box .item .image-wrap .bar span {
+    width: 4.5px; height: 4.5px;
+  }
+  #tab-section .inner .item-box .item .item-content h1 {
+    font-size: 4rem;
+  }
+  #tab-section .inner .item-box .item .item-content p {
+    line-height: 2rem;
+    word-break: revert;
+    margin-bottom: 10px;
+  }
+  #tab-section .inner .item-box .item .item-content .button .original {
+    width: 12rem; height: 4rem;
+    line-height: 4rem;
+  }
+  #tab-section .inner .item-box .item .item-content .button .moreview {
+    width: 12rem; height: 4rem;
+    line-height: 4rem;
+  }
+  .section03 .inner .item-box #file02 .item-content h1 {
+    margin-top: -30px;
+  }
+  .section05 .inner .title .left-title {
+    width: 100% !important;
+  }
+  .section05 .inner .item-box .etcSwiper .swiper-wrapper .swiper-slide a .folder-front {
+    bottom: 10%;
+  }
+  .section05 .inner .item-box .etcSwiper .swiper-wrapper .swiper-slide a .slide-img {
+    height: 80%;
+  }
+  .section05 .inner .item-box .etcSwiper .control .prev {
+    width: 3.8%;
+  }
+  .section05 .inner .item-box .etcSwiper .control .prev .swiper-button-prev {
+    top: 50%; left: -92%;
+  }
+  .section05 .inner .item-box .etcSwiper .control .next {
+    width: 3.8%;
+  }
+  .section05 .inner .item-box .etcSwiper .control .swiper-scrollbar .swiper-scrollbar-drag {
+    top: 0.6rem; left: 1.2rem;
+  }
+  .section05 .inner .item-box .etcSwiper .control .next .swiper-button-next {
+    top: 50%; left: -83%;
+  }
+  .etc-design-popup .etc-design-popup-wrapper .etc-design-img-box {
+    width: 205px; height: 226px;
+  }
+  .contact .inner {
+    padding: 2rem;
+  }
+  .contact .inner .contact-box .bar span {
+    width: 9px; height: 9px;
+  }
+  .gotop {
+    border-radius: 5px;
+  }
+}
+@media screen and (max-width: 270px) {
+  #header .inner .right .menu-hamburger {
+    left: 31%;
+  }
+  .section01 .inner .loading {
+    width: 27rem; height: 16.5rem;
+  }
+  .section01 .inner .loading .box .keepgoing p {
+    font-size: 1.7rem;
+    letter-spacing: 4px;
+  }
+  .section01 .inner .loading .bar span {
+    width: 5px; height: 5px;
+  }
+  .section01 .inner .loading .box .loading-bar {
+    height: 18px;
+    margin-top: 28px;
+  }
+  .section01 .inner .mouse {
+    display: block;
+    width: 2rem;
+    position: absolute;
+    animation: mouse 1.4s steps(2) infinite;
+  }
+  @keyframes mouse {
+    0% {
+      bottom: 40%;
+      right: 20%;
+    }
+    100% {
+      bottom: 60%;
+      right: 35%;
+    }
+  }
+  #tab-section .inner .item-box .item {
+    height: 60%;
+    padding: 1rem;
+    border-radius: 0 10px 10px 10px;
+  
+  }
+  .section05 .inner .item-box {
+    margin: 0;
+  }
+  .section05 .inner .item-box .etcSwiper .swiper-wrapper .swiper-slide a .folder-front {
+    bottom: -15%;
+  }
+  .section05 .inner .item-box .etcSwiper .swiper-wrapper .swiper-slide a .slide-img {
+    height: 106%;
+    width: 80%;
+    margin: 0 10%;
+  }
+  .section05 .inner .item-box .etcSwiper .swiper-wrapper .swiper-slide {
+    margin-right: 60px !important;
+  }
+  .section05 .inner .item-box .etcSwiper .control .prev {
+    width: 4.8%;
+  }
+  .section05 .inner .item-box .etcSwiper .control .prev .swiper-button-prev {
+    left: -80%;
+  }
+  .section05 .inner .item-box .etcSwiper .control .next {
+    width: 4.8%;
+  }
+  .section05 .inner .item-box .etcSwiper .control .next .swiper-button-next {
+    left: -80%;
+  }
+  #footer {
+    height: 60vh;
+  }
+}

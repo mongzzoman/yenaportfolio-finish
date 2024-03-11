@@ -1,0 +1,1001 @@
+@charset "utf-8";
+
+@media screen and (max-width: 1023px) {
+    #header {
+        /* position: relative; */
+    }
+    #header .inner {
+        padding: 0 5rem;
+    }
+    #header .inner .menu-hamburger {
+        display: block;
+        margin-right: 9rem;
+    }
+    #header .inner .right {
+        align-items: center;
+    }
+    #header .inner .right .menu {
+        display: none;
+    }
+
+    .hamburger-popup .popup-inner {
+        padding: 6rem;
+    }
+
+
+    .first-main {
+        padding: 5rem;
+    }
+    .first-main .content .title .big-title {
+        font-size: 5rem;
+    }
+    .first-main .content .title .big-title .darklinedark {
+        display: none;
+    }
+    .first-main .content .text {
+        font-size: 1rem;
+    }
+
+
+    #tab-section .inner {
+        padding: 0 3rem;
+    }
+    #tab-section .inner .title .left-title .left-animate-title .webdesign:nth-child(3) {
+        margin-right: 2.5rem;
+    }
+    #tab-section .inner .title .left-title .left-animate-title .webredesign:nth-child(3) {
+        margin-right: 2.5rem;
+    }
+    #tab-section .inner .title .left-title .left-animate-title .clonecoding:nth-child(5) {
+        margin-right: 2.5rem;
+    }
+    #tab-section .inner .title .left-title .left-animate-title .etcdesign:nth-child(3) {
+        margin-right: 2.5rem;
+    }
+    #tab-section .inner .item-box .item {
+        width: 91.1%;
+        gap: 50px;
+        border: 0.18rem solid #333;
+    }
+    #tab-section .inner .item-nav li.click {
+        top: 2px;
+    }
+    #tab-section .inner .item-nav li a{
+        font-size: 1.3rem;
+    }
+    #tab-section .inner .item-nav li a .list-name {
+        font-size: 1.2rem;
+    }
+    #tab-section .inner .item-box .item .item-content h1 {
+        font-size: 4rem;
+    }
+    #tab-section .inner .item-box .item .item-content p {
+        font-size: 1rem;
+    }
+    #tab-section .inner .item-box .item .item-content .button {
+        font-size: 1rem;
+    }
+
+    .section00 .inner .title .left-title{
+        font-size: 5rem;
+    }
+    .section00 .inner .item-nav li {
+        border-top: 0.18rem solid #333;
+        border-left: 0.18rem solid #333;
+        border-right: 0.18rem solid #333;
+        border-radius: 15px 15px 0 0;
+    }
+    .section00 .inner .item-box .item {
+        border-radius: 0 0 15px 15px;
+    }
+    .section00 .inner .item-box .item .image-wrap .bar span.mousehover {
+        display: none !important;
+    }
+    .section00 .inner .item-box #file01 .image-wrap > a .image-box {
+        animation: file01 linear 50s;
+      }
+      @keyframes file01 {
+        0% {
+          background-position: top;
+        }
+        100% {
+          background-position: bottom;
+        }
+      }
+      .section00 .inner .item-box #file02 .image-wrap > a .image-box {
+        animation: file02 linear 30s;
+      }
+      @keyframes file02 {
+        0% {
+          background-position: top;
+        }
+        100% {
+          background-position: bottom;
+        }
+      }
+      .section00 .inner .item-box #file03 .image-wrap > a .image-box {
+        animation: file03 linear 30s;
+      }
+      @keyframes file03 {
+        0% {
+          background-position: top;
+        }
+        100% {
+          background-position: bottom;
+        }
+      }
+    .detailview-popup .detailview-popup-wrapper .exit {
+        right: 10%;
+    }
+
+
+
+    .section01 .inner {
+        padding: 0 3rem;
+    }
+    .section01 .inner .intro .intro-box {
+        height: 713px;
+    }
+    .section01 .inner .intro .intro-box .intro-bar {
+        height: 55px;
+        padding: 0 30px;
+    }
+    .section01 .inner .intro .intro-box .intro-bar .intro-circle-group {
+        gap: 10px;
+    }
+    .section01 .inner .intro .intro-box .intro-bar .intro-circle-group span {
+        width: 20px;
+        height: 20px;
+    }
+    .section01 .inner .intro .intro-box .intro-bar .intro-button {
+        gap: 10px;
+    }
+    .section01 .inner .intro .intro-box .intro-bar .intro-button .intro-buttons {
+        width: 142px;
+        height: 32px;
+        border-radius: 7px;
+        padding:0 0 0 6px;
+    }
+    .section01 .inner .intro .intro-box .intro-bar .intro-button .intro-buttons .icon img {
+        width: 20px;
+        height: 20px;
+    }
+    .section01 .inner .intro .intro-box .intro-bar .intro-button p {
+        font-size: 1rem;
+    }
+    .section01 .inner .intro .intro-box .intro-content {
+        height: 654px;
+    }
+    .section01 .inner .intro .intro-box .intro-content .intro-left {
+        padding: 20px 20px;
+    }
+    .section01 .inner .intro .intro-box .intro-content .intro-left ul.depth1 li.list-title {
+        font-size: 1rem;
+    }
+    .section01 .inner .intro .intro-box .intro-content .intro-left ul.depth1 li.list-title ul.depth2 {
+        font-size: 0.9rem;
+    }
+    .section01 .inner .intro .intro-box .intro-content .intro-right {
+        padding: 30px 30px;
+    }
+    .section01 .inner .intro .intro-box .intro-content .intro-right .right-middle p {
+        font-size: 1rem;
+    }
+    .section01 .inner .intro .intro-box .intro-content .intro-right .right-bottom .skill-box .img-box {
+        width: 4rem;
+        height: 4rem;
+    }
+
+
+    .section02 .inner .title .left-title {
+        font-size: 5rem;
+    }
+    .section02 .inner .item-nav li {
+        border-top: 0.18rem solid #333;
+        border-left: 0.18rem solid #333;
+        border-right: 0.18rem solid #333;
+        border-radius: 15px 15px 0 0;
+    }
+    
+    .section03 .inner .title .left-title {
+        font-size: 5rem;
+    }
+    .section03 .inner .item-nav li {
+        border-top: 0.18rem solid #333;
+        border-left: 0.18rem solid #333;
+        border-right: 0.18rem solid #333;
+        border-radius: 15px 15px 0 0;
+    }
+
+    .section05 .inner .title .left-title {
+        font-size: 5rem;
+    }
+    .section05 .inner .title .explain p {
+        font-size: 0.9rem;
+        letter-spacing: 0.5px;
+    }
+    .section05 .inner .item-box .etc-content {
+        height: 75%;
+    }
+
+    .etc-design-popup .etc-design-popup-wrapper .etc-design-img-box {
+        width: 91%;
+        height: 74%;
+    }
+    .etc-design-popup .etc-design-popup-wrapper .etc-design-img-box .img {
+        left: 3.8rem;
+    }
+    .etc-design-popup .etc-design-popup-wrapper .etc-design-img-box img.etc-exit {
+        right: 3.5rem;
+    }
+    .etc-design-popup .etc-design-popup-wrapper .etc-design-img-box p.first-title {
+        left: 4rem;
+    }
+    .etc-design-popup .etc-design-popup-wrapper .etc-design-img-box p.second-title {
+        left: 16rem;
+    }
+
+
+    .contact .inner {
+        padding: 0 3rem;
+    }
+
+    #footer .inner {
+        padding: 5rem;
+    }
+    #footer .inner .animate-typing {
+        font-size: 5rem;
+        padding: 100px;
+    }
+  }
+  /* @media screen and (min-width:768px) and (max-width: 1023px) */
+  @media screen and (max-width: 767px) {
+    #header .inner .name {
+        font-size: 1rem;
+    }
+    .hamburger-popup .popup-inner ul li a {
+        width: 57%;
+    }
+
+
+
+    .first-main {
+        padding: 3rem;
+    }
+    .first-main .content .title {
+        padding: 100px 0;
+    }
+    .first-main .content .text {
+        width: 39.2%;
+        line-height: 33px;
+    }
+
+    .section01 .inner .intro .intro-box {
+        border-radius: 15px;
+    }
+    .section01 .inner .intro .intro-box .intro-bar {
+        padding: 0 16px;
+    }
+    .section01 .inner .intro .intro-box .intro-content {
+        flex-direction: column;
+    }
+    .section01 .inner .intro .intro-box .intro-content .intro-left {
+        padding: 2px 20px;
+        width: 100%;
+        height: 23%;
+        border-right: 0;
+        border-bottom: 2px solid #333;
+    }
+    .section01 .inner .intro .intro-box .intro-content .intro-left ul.depth1 {
+        display: flex;
+        gap: 20px;
+        height: 100%;
+    }
+    .section01 .inner .intro .intro-box .intro-content .intro-left ul.depth1 li.list-title {
+        font-size: 0.8rem;
+        width: 25%;
+    }
+    .section01 .inner .intro .intro-box .intro-content .intro-left ul.depth1 li.list-title ul.depth2 {
+        font-size: 0.62rem;
+    }
+    .section01 .inner .intro .intro-box .intro-content .intro-left ul.depth1 li.list-title ul.depth2 li {
+        line-height: 20px;
+    }
+    .section01 .inner .intro .intro-box .intro-content .intro-right {
+        height: 77%;
+        width: 100%;
+    }
+    .section01 .inner .intro .intro-box .intro-content .intro-right .right-middle {
+        margin-top: 15px;
+    }
+    .section01 .inner .intro .intro-box .intro-content .intro-right .right-middle p {
+        font-size: 0.9rem;
+    }
+    .section01 .inner .intro .intro-box .intro-content .intro-right .right-bottom .skill-box .flex {
+        align-items: center;
+    }
+    .section01 .inner .intro .intro-box .intro-content .intro-right .right-bottom .skill-box .img-box {
+        width: 3.5rem;
+        height: 3.5rem;
+        border-radius: 15px;
+    }
+    .section01 .inner .intro .intro-box .intro-content .intro-right .right-bottom .skill-box .img-box img {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+    .section01 .inner .intro .intro-box .intro-content .intro-right .right-bottom .skill-box p {
+        font-size: 0.9rem;
+    }
+
+
+    .section02 .inner .title .left-title {
+        font-size: 4rem;
+    }
+    .section02 .inner .item-nav li {
+        padding-top: 5.75%;
+    }
+
+    #tab-section .inner .title .left-title .left-animate-title .webdesign:nth-child(3) {
+        margin-right: 2rem;
+    }
+    #tab-section .inner .title .left-title .left-animate-title .webredesign:nth-child(3) {
+        margin-right: 2rem;
+    }
+    #tab-section .inner .title .left-title .left-animate-title .clonecoding:nth-child(5) {
+        margin-right: 2rem;
+    }
+    #tab-section .inner .title .left-title .left-animate-title .etcdesign:nth-child(3) {
+        margin-right: 2rem;
+    }
+    #tab-section .inner .item-nav {
+        margin-top: 20px;
+    }
+    #tab-section .inner .item-nav li.click {
+        top: 2px;
+    }
+    #tab-section .inner .item-box .item {
+        padding: 1.5rem;
+        width: 88%;
+        flex-direction: column;
+        gap: 10px;
+        height: 70%;
+    }
+    #tab-section .inner .item-box .item .image-wrap {
+        width: 70%;
+        border-radius: 15px;
+    }
+    #tab-section .inner .item-box .item .image-wrap > a {
+        border-radius: 0 0 15px 15px;
+    }
+    #tab-section .inner .item-box .item .image-wrap > a .image-box {
+        padding-top: 50%;
+    }
+    #tab-section .inner .item-box .item .item-content {
+        gap: 0.5rem;
+        width: 100%;
+    }
+    #tab-section .inner .item-box .item .item-content h1 {
+        font-size: 3rem;
+        width: 100%;
+        text-align: center;
+        border-bottom: 0;
+    }
+    #tab-section .inner .item-box .item .item-content p {
+        text-align: center;
+        line-height: 1.5rem;
+    }
+    #tab-section .inner .item-box .item .item-content .button {
+        text-align: center;
+        padding-top: 1rem;
+    }
+
+    .section00 .inner .title .left-title {
+        font-size: 4rem;
+    }
+    .section00 .inner .item-nav li {
+        padding-top: 5.75%;
+        padding-right: 31.95%;
+    }
+    .section00 .inner .item-box .item .item-content {
+        gap: 0.5rem !important;
+    }
+    .detailview-popup .detailview-popup-wrapper .detailview-popup-img-box {
+        width: 678px;
+    }
+    .detailview-popup .detailview-popup-wrapper .detailview-popup-img-box .detail-img {
+        width: 666px;
+    }
+
+
+    .section03 .inner .title .left-title {
+        font-size: 4rem;
+    }
+    .section03 .inner .item-nav li {
+        padding-top: 5.75%;
+    }
+
+    .section05 .inner .title {
+        align-items: flex-start;
+        gap: 20px;
+        flex-direction: column;
+    }
+    .section05 .inner .title .left-title {
+        font-size: 4rem;
+    }
+    .section05 .inner .item-box {
+        height: 54.4% !important;
+    }
+    .etc-design-popup .etc-design-popup-wrapper .etc-design-img-box .img {
+        left: 2.8rem;
+    }
+    .etc-design-popup .etc-design-popup-wrapper .etc-design-img-box p.first-title {
+        left: 3rem;
+        font-size: 1rem;
+    }
+    .etc-design-popup .etc-design-popup-wrapper .etc-design-img-box p.second-title {
+        left: 13rem;
+        top: 5rem;
+        font-size: 1rem;
+    }
+    .etc-design-popup .etc-design-popup-wrapper .etc-design-img-box img.etc-exit {
+        width: 2rem;
+        height: 2rem;
+        top: 1.6rem;
+        right: 2.5rem;
+    }
+
+
+    #footer .inner {
+        padding: 3rem;
+    }
+    #footer .inner .animate-typing {
+        padding: 100px 0;
+    }
+  }
+  /* 모바일 가로, 태블릿 세로 */
+  @media screen and (max-width: 479px) {
+    #header .inner {
+        padding: 0 2rem;
+    }
+    #header .inner .name {
+        display: flex;
+        flex-direction: column;
+    }
+    #header .inner .name > em {
+        margin-left: 0;
+    }
+    #header .inner .menu-hamburger {
+        margin-right: 1.5rem;
+    }
+    .hamburger-popup .popup-inner {
+        padding: 5rem 0;
+    }
+    .hamburger-popup .popup-inner ul li a {
+        font-size: 2rem;
+    }
+
+    .first-main {
+        padding: 2rem;
+    }
+    .first-main .content .title .big-title {
+        font-size: 3.1rem;
+    }
+    .first-main .content .title .small-title {
+        font-size: 1rem;
+    }
+    .first-main .content .text {
+        width: 57.2%;
+        line-height: 30px;
+        font-size: 0.9rem;
+    }
+
+    .section01 .inner {
+        padding: 0 1rem;
+    }
+    .section01 .inner .intro .intro-box .intro-bar .intro-button .intro-buttons {
+        width: 35px;
+        height: 35px;
+        position: relative;
+    }
+    .section01 .inner .intro .intro-box .intro-bar .intro-button .intro-buttons .icon img {
+        position: absolute;
+        top: 50%; left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    .section01 .inner .intro .intro-box .intro-bar .intro-button p {
+        display: none;
+    }
+    .section01 .inner .intro .intro-box .intro-content .intro-left {
+        padding: 2px 10px;
+        height: 21.5%;
+    }
+    .section01 .inner .intro .intro-box .intro-content .intro-left ul.depth1 {
+        gap: 6px;
+    }
+    .section01 .inner .intro .intro-box .intro-content .intro-left ul.depth1 li.list-title ul.depth2 li {
+        line-height: 16px;
+    }
+    .section01 .inner .intro .intro-box .intro-content .intro-left ul.depth1 li.list-title:nth-child(1){
+        width: 23%;
+    }
+    .section01 .inner .intro .intro-box .intro-content .intro-left ul.depth1 li.list-title:nth-child(2){
+        width: 27%;
+    }
+    .section01 .inner .intro .intro-box .intro-content .intro-left ul.depth1 li.list-title:nth-child(3){
+        width: 28%;
+    }
+    .section01 .inner .intro .intro-box .intro-content .intro-left ul.depth1 li.list-title:nth-child(4){
+        width: 22%;
+    }
+    .section01 .inner .intro .intro-box .intro-content .intro-right {
+        padding: 5px 5px;
+        justify-content: space-evenly;
+    }
+    .section01 .inner .intro .intro-box .intro-content .intro-right .right-middle p {
+        font-size: 0.74rem;
+        line-height: 21px;
+    }
+    .section01 .inner .intro .intro-box .intro-content .intro-right .right-top {
+        padding: 0 3px;
+    }
+    .section01 .inner .intro .intro-box .intro-content .intro-right .right-bottom .skill-box {
+        gap:10px;
+    }
+    .section01 .inner .intro .intro-box .intro-content .intro-right .right-bottom .skill-box .img-box {
+        width: 3rem;
+        height: 3rem;
+        border-radius: 12px;
+    }
+    .section01 .inner .intro .intro-box .intro-content .intro-right .right-bottom .skill-box .img-box img {
+        width: 2rem;
+        height: 2rem;
+    }
+    .section01 .inner .intro .intro-box .intro-content .intro-right .right-bottom .skill-box p {
+        font-size: 0.8rem;
+        margin-top: 0.5rem;
+    }
+
+
+    #tab-section .inner {
+        padding: 0 1rem;
+    }
+    #tab-section .inner .title .left-title .left-animate-title .webdesign:nth-child(3) {
+        margin-right: 1.5rem;
+    }
+    #tab-section .inner .title .left-title .left-animate-title .webredesign:nth-child(3) {
+        margin-right: 1.5rem;
+    }
+    #tab-section .inner .title .left-title .left-animate-title .clonecoding:nth-child(5) {
+        margin-right: 1.5rem;
+    }
+    #tab-section .inner .title .left-title .left-animate-title .etcdesign:nth-child(3) {
+        margin-right: 1.5rem;
+    }
+    #tab-section .inner .item-nav li a {
+        font-size: 1rem;
+    }
+    #tab-section .inner .item-nav li a .list-name {
+        font-size: 1rem;
+    }
+    #tab-section .inner .item-box .item {
+        width: 93.4%;
+        padding: 1rem;
+    }
+    #tab-section .inner .item-box .item .image-wrap {
+        width: 94%;
+    }
+    #tab-section .inner .item-box .item .image-wrap > a .image-box {
+        padding-top: 56%;
+    }
+    #tab-section .inner .item-box .item .item-content h1 {
+        padding-bottom: 0;
+    }
+    #tab-section .inner .item-box .item .item-content p {
+        font-size: 0.9rem;
+    }
+    #tab-section .inner .item-box .item .item-content p b {
+        font-size: 1rem;
+    }
+    
+
+
+    .section00 .inner .title .left-title {
+        font-size: 3rem;
+    }
+    .section00 .inner .item-nav li {
+        padding-top: 7.75%;
+        padding-right: 30.95%;
+    }
+    .detailview-popup .detailview-popup-wrapper .detailview-popup-img-box {
+        width: 420px;
+    }
+    .detailview-popup .detailview-popup-wrapper .detailview-popup-img-box .detail-img {
+        width: 408px;
+    }
+    .detailview-popup .detailview-popup-wrapper .exit {
+        right: 12%;
+        width: 24px;
+    }
+    
+    .section02 .inner .title .left-title {
+        font-size: 3rem;
+    }
+    .section02 .inner .item-nav li {
+        padding-top: 7.75%;
+        padding-right: 30.95%;
+    }
+
+    .section03 .inner .title .left-title {
+        font-size: 3rem;
+    }
+    .section03 .inner .item-nav li {
+        padding-top: 7.75%;
+        padding-right: 30.95%;
+    }
+
+    .section05 .inner {
+        padding: 0 4rem !important;
+    }
+    .section05 .inner .title .left-title {
+        font-size: 3rem;
+    }
+    .section05 .inner .title .explain {
+        padding-bottom: 0;
+    }
+    .section05 .inner .title .explain p {
+        font-size: 0.8rem;
+    }
+    .section05 .inner .item-box .etc-content {
+        height: 75%;
+        flex-direction: column;
+        margin-top: 16px;
+        gap: 10px;
+    }
+    .section05 .inner .item-box .etc-content .etc-left {
+        width: 95%;
+        gap: 10px;
+    }
+    .section05 .inner .item-box .etc-content .etc-right {
+        width: 95%;
+        gap: 10px;
+    }
+    .section05 .inner .item-box .etc-content .etc-right .etc-right-bottom {
+        gap: 10px;
+    }
+    .etc-design-popup .etc-design-popup-wrapper .etc-design-img-box {
+        width: 96%;
+        height: 48%;
+        border-radius: 10px;
+    }
+    .etc-design-popup .etc-design-popup-wrapper .etc-design-img-box .img {
+        left: 6px;
+        width: 97%;
+    }
+    .etc-design-popup .etc-design-popup-wrapper .etc-design-img-box img.etc-exit {
+        right: 6px;
+    }
+    .etc-design-popup .etc-design-popup-wrapper .etc-design-img-box p.first-title {
+        left: 20px;
+    }
+    .etc-design-popup .etc-design-popup-wrapper .etc-design-img-box p.second-title {
+        left: 11rem;
+        font-size: 0.8rem;
+    }
+
+    .gotop {
+        width: 2.125rem;
+        height: 2.125rem;
+        border-radius: 0.6375rem;
+        bottom: 1.125rem;
+        right: 1.125rem;
+    }
+    .gotop img {
+        width: 0.6rem;
+        height: 1.5rem;
+    }
+
+    #footer .inner {
+        padding: 2rem;
+    }
+    #footer .inner .animate-typing {
+        font-size: 3.1rem;
+    }
+  }
+
+  @media screen and (max-width: 320px) {
+    body {
+        font-size: 10px;
+    }
+    #header {
+        height: 40px;
+    }
+    #header .inner {
+        padding: 0 1rem;
+    }
+    #header .inner .name {
+        font-size: 0.8rem;
+    }
+    #header .inner .menu-hamburger {
+        margin-right: 1.3rem;
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+    #header .inner .right .darkBtn {
+        width: 3rem;
+        height: 2rem;
+    }
+    #header .inner .right .darkBtn .toggleButton {
+        width: 1.2rem;
+        height: 1.2rem;
+        background-size: 0.5rem 0.75rem;
+    }
+    .hamburger-popup .popup-inner ul li a {
+        font-size: 1.5rem;
+        width: 64%;
+    }
+    .hamburger-popup .popup-inner ul li:hover a::after {
+        height: 5px;
+    }
+
+
+    .first-main {
+        padding: 0 1rem;
+    }
+    .first-main .content .title {
+        padding: 170px 0 100px 0;
+    }
+    .first-main .content .title .big-title {
+        font-size: 2.2rem;
+    }
+    .first-main .content .title .small-title {
+        font-size: 0.9rem;
+    }
+    .first-main .content .text {
+        width: 100%;
+        font-size: 0.8rem;
+    }
+
+
+    .section01 .inner .intro .intro-box {
+        border-radius: 12px;
+        height: 728px;
+    }
+    .section01 .inner .intro .intro-box .intro-bar {
+        padding: 0 8px;
+        height: 40px;
+    }
+    .section01 .inner .intro .intro-box .intro-bar .intro-circle-group span {
+        width: 15px; height: 15px;
+    }
+    .section01 .inner .intro .intro-box .intro-bar .intro-button .intro-buttons {
+        width: 30px; height: 30px;
+    }
+    .section01 .inner .intro .intro-box .intro-content {
+        height: 668px;
+    }
+    .section01 .inner .intro .intro-box .intro-content .intro-left {
+        height: 39.5%;
+    }
+    .section01 .inner .intro .intro-box .intro-content .intro-left ul.depth1 {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .section01 .inner .intro .intro-box .intro-content .intro-left ul.depth1 li.list-title {
+        width: 46% !important;
+        padding: 10px 0 0 0;
+    }
+    .section01 .inner .intro .intro-box .intro-content .intro-right {
+        padding: 15px 5px;
+    }
+    .section01 .inner .intro .intro-box .intro-content .intro-right .right-top {
+        gap: 12px;
+    }
+    .section01 .inner .intro .intro-box .intro-content .intro-right .right-top .profile-text ul {
+        font-size: 1rem;
+    }
+    .section01 .inner .intro .intro-box .intro-content .intro-right .right-top .profile-text ul li:first-child {
+        margin-top: 10px;
+    }
+    .section01 .inner .intro .intro-box .intro-content .intro-right .right-top .profile-text ul li {
+        font-size: 0.67rem;
+        line-height: 16px;
+    }
+    .section01 .inner .intro .intro-box .intro-content .intro-right .right-middle p {
+        font-size: 0.63rem;
+        line-height: 18px;
+    }
+    .section01 .inner .intro .intro-box .intro-content .intro-right .right-middle p br {
+        display: none;
+    }
+    .section01 .inner .intro .intro-box .intro-content .intro-right .right-bottom .skill-box {
+        flex-wrap: wrap;
+    }
+    .section01 .inner .intro .intro-box .intro-content .intro-right .right-bottom .skill-box .flex {
+        margin: 0 8px;
+    }
+    .section01 .inner .intro .intro-box .intro-content .intro-right .right-bottom .skill-box .img-box {
+        width: 2.5rem;
+        height: 2.5rem;
+        border-radius: 10px;
+    }
+    .section01 .inner .intro .intro-box .intro-content .intro-right .right-bottom .skill-box .img-box img {
+        width: 1.8rem;
+        height: 1.8rem;
+    }
+    .section01 .inner .intro .intro-box .intro-content .intro-right .right-bottom .skill-box p {
+        font-size: 0.6rem;
+    }
+
+
+    .section00 .inner .title .left-title {
+        font-size: 2.3rem;
+    }
+    .section00 .inner .item-nav li {
+        padding-top: 10.75%;
+        padding-right: 30.8%;
+        border-radius: 12px 12px 0 0;
+    }
+    .section00 .inner .item-box #file03 .item-content p br:last-child {
+        display: none;
+    }
+    .detailview-popup .detailview-popup-wrapper .detailview-popup-img-box {
+        width: 300px;
+    }
+    .detailview-popup .detailview-popup-wrapper .detailview-popup-img-box .detail-img {
+        width: 288px;
+    }
+
+
+
+    .section02 .inner .title .left-title {
+        font-size: 2rem;
+    }
+    .section02 .inner .item-nav li {
+        padding-top: 10.75%;
+        padding-right: 30.8%;
+        border-radius: 12px 12px 0 0;
+    }
+    .section02 .inner .item-box #file02 .item-content h1 {
+        font-size: 2.4rem;
+    }
+
+    .section03 .inner .title .left-title {
+        font-size: 2rem;
+    }
+    .section03 .inner .item-nav li {
+        padding-top: 10.75%;
+        padding-right: 30.8%;
+        border-radius: 12px 12px 0 0;
+    }
+    .section03 .inner .item-box .item .item-content .button .moreview {
+        width: 8rem !important; 
+    }
+
+    .section05 .inner .title .left-title {
+        font-size: 2.3rem;
+    }
+    .section05 .inner {
+        padding: 0 1rem !important;
+    }
+    .section05 .inner .title .explain p {
+        font-size: 0.7rem;
+    }
+    .section05 .inner .item-box .etc-content .etc-left {
+        width: 100%;
+    }
+    .section05 .inner .item-box .etc-content .etc-right {
+        width: 100%;
+    }
+    .etc-design-popup .etc-design-popup-wrapper .etc-design-img-box p.second-title {
+        top: 7rem;
+        left: 1rem;
+    }
+
+
+    #tab-section .inner .title .left-title .left-animate-title .webdesign:nth-child(3) {
+        margin-right: 1rem;
+    }
+    #tab-section .inner .title .left-title .left-animate-title .webredesign:nth-child(3) {
+        margin-right: 1rem;
+    }
+    #tab-section .inner .title .left-title .left-animate-title .clonecoding:nth-child(5) {
+        margin-right: 1rem;
+    }
+    #tab-section .inner .title .left-title .left-animate-title .etcdesign:nth-child(3) {
+        margin-right: 1rem;
+    }
+    #tab-section .inner .item-nav {
+        gap: 5px;
+    }
+    #tab-section .inner .item-nav li a {
+        font-size: 0.7rem;
+    }
+    #tab-section .inner .item-nav li a .list-name {
+        padding-left: 0.1rem;
+        font-size: 0.7rem;
+
+    }
+    #tab-section .inner .item-box .item {
+        width: 90%;
+        height: 70%;
+    }
+    #tab-section .inner .item-box .item .image-wrap {
+        width: 104%;
+    }
+    #tab-section .inner .item-box .item .image-wrap > a .image-box {
+        padding-top: 81%;
+    }
+    
+    #tab-section .inner .item-box .item .item-content p {
+        font-size: 0.75rem;
+    }
+    #tab-section .inner .item-box .item .item-content p b {
+        font-size: 0.8rem;
+    }
+    #tab-section .inner .item-box .item .item-content .button {
+        padding-top: 0;
+    }
+    #tab-section .inner .item-box .item .item-content .button .original {
+        width: 6.0625rem;
+        height: 3rem;
+        border-radius: 12px;
+        line-height: 3rem;
+        margin-right: 0.6rem;
+    }
+    #tab-section .inner .item-box .item .item-content .button .moreview {
+        width: 6.0625rem;
+        height: 3rem;
+        border-radius: 12px;
+        line-height: 3rem;
+    }
+
+
+    .contact .inner {
+        padding: 0 1rem;
+    }
+    .contact .inner .contact-box .bar {
+        padding: 1rem;
+    }
+    .contact .inner .contact-box .bar .circle-group {
+        gap: 12px;
+    }
+    .contact .inner .contact-box .bar .circle-group span {
+        width: 12px; height: 12px;
+    }
+    .contact .inner .contact-box .box {
+        padding: 1rem;
+    }
+    .contact .inner .contact-box .box form .form-group label {
+        margin-bottom: 10px;
+        font-size: 1rem;
+    }
+    .contact .inner .contact-box .box form .form-group input {
+        padding: 0.8rem;
+    }
+    .contact .inner .contact-box .box form .form-group textarea {
+        height: 6.5rem;
+    }
+    .contact .inner .contact-box .box form button {
+        padding: 0.8rem 0;
+    }
+    .contact .inner .mouse {
+        width: 2.5rem;
+    }
+    @keyframes mouse-cursor {
+        0% {
+            bottom: -2rem;
+            right: -2rem;
+        }
+        100% {
+            bottom: 2rem;
+            right: 3rem;
+        }
+    }
+
+    #footer .inner {
+        padding: 1rem;
+    }
+    #footer .inner .animate-typing {
+        font-size: 2.2rem;
+    }
+  }

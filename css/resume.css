@@ -1,0 +1,419 @@
+@charset "utf-8";
+
+/* poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap");
+/* font-family: 'Poppins', sans-serif; */
+
+/* suite 간결한 ui용 폰트 */
+@font-face {
+  font-family: "SUITE-Regular";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/SUITE-Regular.woff2")
+    format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+/* 조선명조체 */
+@font-face {
+  font-family: "Chosunilbo_myungjo";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Chosunilbo_myungjo.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* against - title */
+@font-face {
+  font-family: "against";
+  src: url("../fonts/against\ regular.ttf");
+}
+
+/* pretendard */
+@font-face {
+  font-family: "Pretendard-Regular";
+  src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")
+    format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* iamaplayer - keep going */
+@font-face {
+  font-family: "IAMAPLAYER";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-2@1.0/IAMAPLAYER.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul {
+  list-style: none;
+}
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+.clear {
+  content: "";
+  clear: both;
+  display: block;
+}
+body {
+  background: url("../images/noise-grid_BG.png") no-repeat center/cover;
+  overflow: hidden;
+}
+#wrap {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  font-family: "SUITE-Regular";
+}
+em {
+  font-style: normal;
+}
+
+.flex {
+  display: flex;
+}
+.column {
+  flex-direction: column;
+}
+/* ============================================= */
+.wrap-box {
+  width: 100%;
+  height: 100%;
+}
+.left-box {
+  width: 50%;
+  height: 100%;
+  border-right: 3px solid #333;
+}
+.left-box .prev-button {
+  display: block;
+  width: 3.125rem;
+  height: 3.125rem;
+  border-radius: 10px;
+  border: 2px solid #333;
+  background-color: white;
+  position: relative;
+  margin: 1.5rem 0 0 1.5rem;
+}
+.left-box .prev-button img {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-90deg);
+  width: 0.9rem;
+  height: 1.8rem;
+  object-fit: cover;
+}
+.left-box .yeah-box {
+  width: 38rem;
+  height: 38rem;
+  position: relative;
+  margin-top: 7.5rem;
+  margin-left: 10rem;
+}
+.left-box .yeah-box img {
+  display: block;
+  position: absolute;
+  top: 31%;
+  animation: yeah ease-in-out 5s infinite;
+}
+
+@keyframes yeah {
+  0% {
+    transform: rotate(0deg);
+  }
+  40% {
+    transform: rotate(180deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  60% {
+    transform: rotate(180deg);
+  }
+  90% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+/* right-box */
+.right-box {
+  width: 50%;
+  height: 100%;
+  position: relative;
+}
+.right-box .profile-img {
+  position: absolute;
+  right: 2rem;
+  top: 3rem;
+}
+.right-box .profile-img .circle-frame {
+  width: 19rem;
+  height: 19rem;
+  border: 2px solid #333;
+  border-radius: 50%;
+  background-color: white;
+  position: relative;
+  overflow: hidden;
+}
+.right-box .profile-img .circle-frame img {
+  display: block;
+  width: 15rem;
+  height: 15rem;
+  position: absolute;
+  top: 10%;
+  left: 7%;
+  transition: all .5s ease-in-out;
+}
+.right-box .profile-img .circle-frame:hover img {
+  transform: scale(1.3);
+}
+.right-box .profile-img .pink-mouse {
+  display: block;
+  width: 3rem;
+  position: absolute;
+  bottom: 1rem;
+  right: 0;
+}
+
+/* right- profile */
+.profile {
+  width: 100%;
+  height: 20%;
+  padding: 3%;
+  border-bottom: 3px solid #333;
+}
+.profile .txt-box {
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+.profile .txt-box .first-line {
+  align-items: baseline;
+  gap: 0.5rem;
+}
+.profile .txt-box .first-line .name {
+  font-size: 1.4rem;
+  font-weight: bold;
+  padding-bottom: 0.5rem;
+}
+.profile .txt-box .first-line .name2 {
+  font-style: normal;
+  font-weight: 400;
+  display: inline-block;
+}
+.profile .txt-box .second-line {
+  gap: 2rem;
+  font-size: 1.1rem;
+}
+.profile .txt-box .third-line {
+  font-family: "Poppins", sans-serif;
+  gap: 2rem;
+}
+.profile .txt-box .third-line .instagram1 {
+}
+.profile .txt-box .third-line .instagram2 {
+}
+.profile .txt-box .email {
+  font-family: "Poppins", sans-serif;
+}
+
+/* right - introduce */
+.introduce {
+  width: 100%;
+  height: 30%;
+  padding: 3%;
+  border-bottom: 3px solid #333;
+}
+.introduce h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.4rem;
+  padding-bottom: 1rem;
+}
+.introduce p {
+  line-height: 2.2rem;
+  padding: 0 20rem 0 0;
+}
+.introduce p span {
+  font-weight: bold;
+  position: relative;
+}
+.introduce p span:before {
+  content: '';
+  display: inline-block;
+  width: 0;
+  height: 50%;
+  background-color: #FF90D0;
+  opacity: 0.5;
+  position: absolute;
+  top: 50%;
+  z-index: -1;
+  transition: all .5s ease-in-out;
+}
+.introduce p:hover span:before {
+  width: 100%;
+}
+
+/* right - skill */
+.skill {
+  width: 100%;
+  height: 30%;
+  padding: 3%;
+  border-bottom: 3px solid #333;
+}
+.skill h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.4rem;
+  padding-bottom: 1rem;
+}
+.skill .skill-box {
+  justify-content: space-between;
+}
+.skill .skill-box p {
+  text-align: center;
+  margin-top: 1rem;
+  font-weight: bold;
+}
+.skill .skill-box .img-box {
+  width: 6.25rem;
+  height: 6.25rem;
+  border-radius: 37px;
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.3), inset 0 0 7px rgba(0, 0, 0, 0.3);
+  background-color: white;
+  position: relative;
+  margin-top: 1rem;
+  overflow: hidden;
+}
+.skill .skill-box .img-box img {
+  display: block;
+  width: 4.375rem;
+  height: 4.375rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 0.3s ease-in-out;
+}
+.skill .skill-box .img-box:hover img {
+  transform: scale(1.1) translate(-45%, -45%);
+}
+
+.skill .skill-box .Illustrator {
+  align-items: center;
+}
+.skill .skill-box .Photoshop {
+  align-items: center;
+}
+/* right - charactor */
+.charactor {
+  width: 100%;
+  height: 20%;
+  font-family: "Poppins", sans-serif;
+  padding: 3%;
+  position: relative;
+  overflow: hidden;
+}
+.charactor .up {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  position: absolute;
+  left: 3.3%;
+  animation: up 40s linear infinite;
+  /* animation-fill-mode: forwards; */
+}
+.charactor .up p {
+  display: inline-block;
+  padding: 0.6rem 2rem;
+  border: 2px solid #333;
+  background-color: white;
+  border-radius: 2rem;
+}
+.charactor .up:hover p {
+  background-color: #FF90D0;
+  color: white;
+}
+@keyframes up {
+  0% {
+    left: -300%;
+  }
+  100% {
+    left: 0%;
+  }
+}
+.charactor .up .circle {
+  display: block;
+  /* padding: 1.35rem; */
+  width: 2.7rem;
+  height: 2.7rem;
+  border: 2px solid #333;
+  background-color: white;
+  border-radius: 50%;
+}
+.charactor .up:hover .circle {
+  background-color: #FF90D0;
+}
+.charactor .down {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  position: absolute;
+  bottom: 10%;
+  left: 3.3%;
+  animation: down 40s linear infinite;
+}
+.charactor .down p {
+  display: inline-block;
+  padding: 0.6rem 2rem;
+  border: 2px solid #333;
+  background-color: white;
+  border-radius: 2rem;
+  word-wrap: normal;
+}
+.charactor .down:hover p {
+  background-color: #FF90D0;
+  color: white;
+}
+.charactor .down .broad-minded {
+  width: 190px;
+}
+.charactor .down .circle {
+  display: block;
+  width: 2.7rem;
+  height: 2.7rem;
+  border: 2px solid #333;
+  background-color: white;
+  border-radius: 50%;
+}
+@keyframes down {
+  0% {
+    left: 0%;
+  }
+  100% {
+    left: -250%;
+  }
+}
+.charactor .down:hover .circle {
+  background-color: #FF90D0;
+}
+
+/* main {
+  clip-path: path("M 10,30 A 20,20 0,0,1 50,30 A 20,20 0,0,1 90,30 Q 90,60 50,90 Q 10,60 10,30 z");
+} */
+/* main {
+  clip-path: path('M213.1,6.7c-32.4-14.4-73.7,0-88.1,30.6C110.6,4.9,67.5-9.5,36.9,6.7C2.8,22.9-13.4,62.4,13.5,110.9 C33.3,145.1,67.5,170.3,125,217c59.3-46.7,93.5-71.9,111.5-106.1C263.4,64.2,247.2,22.9,213.1,6.7z');
+} */
+main {
+  clip-path: path("M12 4.419c-2.826-5.695-11.999-4.064-11.999 3.27 0 7.27 9.903 10.938 11.999 15.311 2.096-4.373 12-8.041 12-15.311 0-7.327-9.17-8.972-12-3.27z");
+	/* transform: scale(100%); */
+}
